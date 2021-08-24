@@ -1,0 +1,26 @@
+.title--error{
+    font-family: $font;
+    text-transform: uppercase;
+    text-align: center;
+}
+.text--error {
+    text-align: center;
+    font-size: 26px;
+    font-family: $font;
+}
+.div-img {
+    display: flex;
+}
+@media(max-width: 469px){
+    .error--img{
+        max-width: 100%;
+    }
+    
+}
+.back--index {
+    text-align: center;
+    text-decoration: none;
+    font-family: $font;
+    font-size: 20px;
+    font-weight: 700;    
+}
