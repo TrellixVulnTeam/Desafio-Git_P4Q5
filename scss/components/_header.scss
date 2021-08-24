@@ -1,0 +1,15 @@
+header {
+    background-color: #fff;
+    a{
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        font-family: $font;        
+        font-weight: 400;
+    }
+}
+@media(max-width: 469px){
+    header{
+        font-size: 14px;
+    }
+}

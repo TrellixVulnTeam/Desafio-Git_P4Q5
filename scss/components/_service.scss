@@ -1,0 +1,54 @@
+$bg-service: lightblue;
+
+.sombra {
+    background-color: $bg-white;
+    box-shadow: 0 5px 15px 0 rgba(112, 112, 112, 0.54);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    h2 {
+        text-align: center;
+        margin: 15px;
+        padding: 15px;
+    }
+}
+.servicio {
+    display: $d-flex;
+    justify-content: space-between;
+}
+.sombra__div--service{
+    display: $d-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    h3{
+        color: $bg-celeste;
+        font-weight: 400;
+    }
+    a{
+        text-decoration: none;
+        font-size: 18px;
+    }
+    p{
+        line-height: 2;
+        text-align: center;
+    }
+    .iconos{
+        height: 15rem;
+        width: 15rem;
+        background-color: $bg-service;
+        border-radius: 50%;
+        display: $d-flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+@media(max-width: 469px) {
+    .servicio {
+        display: block;
+    }
+    .sombra__div--service {
+       max-width: 100%;
+    }
+}

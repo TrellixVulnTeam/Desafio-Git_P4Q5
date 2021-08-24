@@ -1,0 +1,70 @@
+$corn: cornsilk;
+
+.section--inicio {
+    display: $d-flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+@media (max-width: 469px){
+    .img{
+        margin-top: 15px;
+        max-width: 100%;
+    }
+    .section--inicio {
+        display: block;
+    }
+}
+.inicio__img {
+    display: $d-flex;
+    justify-content: start;
+    margin: auto;
+    margin-right: 15px;
+    .img {
+        border-radius: 5px;
+        height: 450px;
+    }
+}
+.inicio__paragraph{
+    background-color: $corn;
+    width: 100%;
+    padding: 1rem;
+    margin-top:1.5rem;
+    .gratis {
+        color: #000;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .parrafo{
+        text-align: center;
+        color: #000;
+        font-size: 16px;
+    }
+}
+.inp--form {
+    display: $d-flex;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    display: $d-flex;
+    width: 450px;
+    margin: .5rem;
+    height: 3.4rem;
+}
+.input__check{
+    display: $d-flex;
+    justify-content: center;
+    p {
+        margin-left: 5px;
+    }
+}
+.inp--btn{
+    display: $d-flex;
+    justify-content: center;
+}
+.inp--boton{
+    width: 450px;
+    height: 3.4rem;
+    cursor: pointer;
+}

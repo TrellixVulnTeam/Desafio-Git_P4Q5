@@ -1,0 +1,59 @@
+.formulario--contacto{
+    margin: 0 auto;
+    width: 60%;
+    background-color: #12474A;
+    padding: 2rem;
+}
+.title__cont{
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    padding: 8px;
+}
+.legend--contact{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #ecff40;
+}
+.campos--contacto{
+    color: #fff;
+    label{
+        text-align: center;
+        padding-top: .5rem;
+    }
+    .input__text{
+        width: 100%;
+        padding: .3rem;
+        border-radius: .5rem;
+    }
+}
+.campo label{
+    font-weight: bold;
+    margin-bottom: .3rem;
+    display: block;
+}
+.input__text{
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+    border: .3rem;
+}
+.alinear-derecha {
+    padding-top: .5rem;
+    display: flex;
+    justify-content:center;
+}
+.boton {
+    padding: .3rem 1.2rem;
+}
+.boton:hover{
+    animation: pulse;
+    animation-duration: 3s;
+    border: 1.5px solid gray;
+    background-color: #12474A;
+    border-radius: .2rem;
+    color: #fff;
+}

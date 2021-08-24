@@ -1,0 +1,21 @@
+$bg-dark:#3b3434;
+
+.footer {
+    background-color: $bg-dark;
+    h3 {
+        color: $bg-service;
+        text-align: center;
+    }
+    p {
+        color: $bg-service;
+        text-align: center;
+    }
+}
+.footer__link--sociales {
+    text-align: center;
+}
+.img__footer--anim:hover {
+    cursor: pointer;
+    animation: pulse;
+    animation-duration: 1s;
+}

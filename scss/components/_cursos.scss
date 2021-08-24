@@ -1,0 +1,88 @@
+$ancho: 220px; 
+$altura: 20rem;
+$borde: solid 1px #fff;
+$blue: #4285f4;
+$green: #33d374;
+
+
+.sidebar--section {
+    background-image: url(../../images/codigos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: $borde;
+    border-radius: .2rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.sidebar{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.5rem*2;
+}
+.cursos__title{
+    font-weight: 700;
+}
+.cursos__title:hover{
+    color: $bg-btn;
+    cursor: pointer;
+}
+.main--cursos{
+    background-color: cornsilk;
+    display: flex;
+    justify-content: space-around;    
+    
+}
+.section--article{ 
+    width: 50%;
+}
+@media(max-width: 469px){
+    .main--cursos{
+        display: block;
+    }
+    .section--article {
+        width: 100%;
+    }
+    .main__cursos{
+        width: 100%;
+    }
+    .cursos__title{
+        font-size: 36px;
+    }
+}
+.main__cursos{
+    max-width: 100%;
+    background-color: #fafafa;
+    margin: .5rem*2; /* operaciones */
+    padding: .3rem*2; /* operaciones */
+    border-radius: .2rem;
+    box-shadow: 0 5px 15px 0 rgba(235,229,229,0.54);
+    h3{
+        font-weight: 100*7; /* operaciones */
+        text-align: center;
+        color: $green;
+    }
+    p{
+        font-weight: 400;
+        text-align: center;
+        color: #000;
+    }
+}
+.main__cursos:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}
+.cursos-img {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.img-logo {
+    width: 4rem*4;  /* operaciones */
+    height: $altura/2; /* operaciones */
+}
+.img-logojsb{
+    width: 6rem*2; /* operaciones */
+    height: $altura/2; /* operaciones */
+}
+

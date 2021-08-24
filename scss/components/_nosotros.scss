@@ -1,0 +1,26 @@
+// IF Condicional
+
+$color: black;
+
+.parrafo {
+    @if($color == azul){
+        color:blue;
+    }@else{
+        color: black;
+    }
+}
+
+.section--nos {
+    display: flex;
+}
+// condicional
+.titulo-nos{
+    text-align: center;
+    @if($color == azul) {
+        color: blue;
+    }@else{
+        color: black;
+    }
+    font-weight: 700;
+    padding: 2px*4; /*operaciones*/
+}

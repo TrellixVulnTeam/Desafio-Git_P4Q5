@@ -1,0 +1,45 @@
+//Bucle
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: $i * 2em;
+    }
+}
+
+// Maps
+
+$headings: (
+    h1: 4em,
+    h2: 3em,
+    h3: 2em,
+    h4: 1em,
+    h5: 0.75em,
+    h6: 0.35em
+);
+
+$h1: map-get($headings, h1); 
+
+$colores: (
+    primario: #2a9425,
+    secundario: #0097a7
+);
+
+@function color($color) {
+    @return map-get($colores, $color);
+}
+
+h1 {
+    color: color(primario);
+}
+h2 {
+    color: color(secundario);
+}
+
+$lista: (red, leon)(green, puma) (yellow, gato);
+
+
+// Each
+@each $heading, $size in $headings {
+    #{$heading} {
+        font-size: $size;
+    }
+}
