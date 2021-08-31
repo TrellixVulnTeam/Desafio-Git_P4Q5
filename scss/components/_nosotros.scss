@@ -9,9 +9,16 @@ $color: black;
         color: black;
     }
 }
-
 .section--nos {
     display: flex;
+}
+.link__cursos{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.link__cursos:hover{
+    text-decoration: underline;
 }
 // condicional
 .titulo-nos{
@@ -23,4 +30,34 @@ $color: black;
     }
     font-weight: 700;
     padding: 2px*4; /*operaciones*/
+}
+/* Responsive Design */
+
+@media(max-width: 469px){
+    .section--nos{
+        display: block;
+        width: 100%;
+    }
+    .progra-img {        
+        max-width: 100%;
+    }
+}
+@media(max-width: 897px) {
+    .section--nos{
+        display: block;
+    }
+    .progra-img {
+       max-width: 100%;
+    }
+}
+@media(max-width: 1138px){
+    .section--nos {
+        display: block;
+        width: 100%;
+    }
+    .section__nos--img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

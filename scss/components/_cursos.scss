@@ -3,6 +3,7 @@ $altura: 20rem;
 $borde: solid 1px #fff;
 $blue: #4285f4;
 $green: #33d374;
+$bg-celeste: #0097a7;
 
 
 .sidebar--section {
@@ -28,31 +29,15 @@ $green: #33d374;
     cursor: pointer;
 }
 .main--cursos{
-    background-color: cornsilk;
     display: flex;
-    justify-content: space-around;    
-    
+    justify-content: space-around;        
 }
 .section--article{ 
     width: 50%;
 }
-@media(max-width: 469px){
-    .main--cursos{
-        display: block;
-    }
-    .section--article {
-        width: 100%;
-    }
-    .main__cursos{
-        width: 100%;
-    }
-    .cursos__title{
-        font-size: 36px;
-    }
-}
 .main__cursos{
     max-width: 100%;
-    background-color: #fafafa;
+    background-color: #f5efef;
     margin: .5rem*2; /* operaciones */
     padding: .3rem*2; /* operaciones */
     border-radius: .2rem;
@@ -85,4 +70,18 @@ $green: #33d374;
     width: 6rem*2; /* operaciones */
     height: $altura/2; /* operaciones */
 }
-
+/* Responsive Design */
+@media(max-width: 469px){
+    .main--cursos{
+        display: block;
+    }
+    .section--article {
+        width: 100%;
+    }
+    .main__cursos{
+        width: 100%;
+    }
+    .cursos__title{
+        font-size: 36px;
+    }
+}

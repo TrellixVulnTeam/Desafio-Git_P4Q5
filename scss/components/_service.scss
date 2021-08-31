@@ -44,6 +44,8 @@ $bg-service: lightblue;
         align-items: center;
     }
 }
+
+/* Responsive Design */
 @media(max-width: 469px) {
     .servicio {
         display: block;

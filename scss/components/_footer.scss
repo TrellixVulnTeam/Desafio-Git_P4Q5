@@ -1,10 +1,14 @@
 $bg-dark:#3b3434;
+$blanco:  #f5efef;
+
 
 .footer {
-    background-color: $bg-dark;
+    background-color: $blanco;
+    border-radius: 5px;
     h3 {
         color: $bg-service;
         text-align: center;
+        
     }
     p {
         color: $bg-service;
@@ -16,6 +20,6 @@ $bg-dark:#3b3434;
 }
 .img__footer--anim:hover {
     cursor: pointer;
-    animation: pulse;
-    animation-duration: 1s;
+    animation: shakeX;
+    animation-duration: 2s;
 }

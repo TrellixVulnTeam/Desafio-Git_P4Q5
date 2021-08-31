@@ -1,3 +1,8 @@
+
+.section__contacto {
+    margin-bottom: 35px;
+}
+
 .formulario--contacto{
     margin: 0 auto;
     width: 60%;
@@ -56,4 +61,10 @@
     background-color: #12474A;
     border-radius: .2rem;
     color: #fff;
+}
+/* Responsive Design */
+@media(max-width: 469px) {
+    .section__contacto {
+        max-width: 100%;
+    }
 }

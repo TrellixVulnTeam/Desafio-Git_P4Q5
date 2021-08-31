@@ -29,11 +29,6 @@ $opaco: rgba(0,0,1, 0.11);
         color: $bg-white;
     }
 }
-@media(max-width: 469px){
-    .hero {
-        max-width: $w-100;
-    }
-}
 .boton-hero {
     background-color: $bg-btn;
     padding: .3rem 1.2rem;
@@ -59,4 +54,11 @@ $opaco: rgba(0,0,1, 0.11);
     color: $bg-btn;
     cursor: pointer;
     font-weight: 700;
+}
+
+/* Responsive Design */
+@media(max-width: 469px){
+    .hero {
+        max-width: $w-100;
+    }
 }
