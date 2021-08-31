@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pagina en la cual existe un formulario para contactarse con el admin">
-    <meta name="keywords" content="formulario, campos, llenar">
+    <meta name="description" content="Pagina que destaca por su formulario haciendo un llamado a la comunidad">
+    <meta name="keywords" content="programador, programar, cursos, inscribirme, formulario">
     <meta name="author" content="rodri-agus.cl">
-    <title>Contactanos</title>
+    <title>Únete a nuestro equipo</title>
     <!-- Link animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Link Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <!-- Link BootStrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Link CSS -->
     <link rel="stylesheet" href="./scss/main.css">
-
 </head>
 
 <body>
@@ -36,36 +34,33 @@
         </nav>
     </div>
 
-    <section class="section__contacto">
-        <h2 class="title__cont">Contactate</h2>    
-        <form class="formulario--contacto">
-            <fieldset>
-                <legend class="legend--contact">Llena todos los campos</legend>
-    
-                <div class="campos--contacto">
-                    <div class="campo">
-                        <label>Nombre</label>
-                        <input class="input__text" type="text" placeholder="Nombre">
-                    </div>    
-                    <div class="campo">
-                        <label>Telefono</label>
-                        <input class="input__text" type="tel" placeholder="Tu teléfono">
-                    </div>    
-                    <div class="campo">
-                        <label>Correo</label>
-                        <input class="input__text" type="email" placeholder="Tu email">
+    <section class="container section--inicio ">
+        <div class="inicio__img">
+            <img class="img" src="../images/cursos.jpg" alt="imagen de setup virtual">
+        </div>
+        <div class="inicio__paragraph">
+            <h2 class="gratis">¿Quieres ser parte de la comunidad de programadores? [GRATIS] </h2>
+            <p class="parrafo">En esta sección, queremos que te atrevas a conocer, nuestros cursos para programadores que tenemos creados para
+                que tú, que estas interesado, comiences a crear tus primeras lineas de codigo. Si quieres tener mas información, sobre nuestros Cursos
+                completa el formulario que está a continuación.</p>
+            <div class="inicio-form">
+                <form>
+                    <div class="inp--form">
+                        <input class="input" type="text" placeholder="Dime tu nombre">
                     </div>
-                    <div class="campo">
-                        <label>Mensaje</label>
-                        <textarea class="input__text"></textarea>
+                    <div class="inp--form">
+                        <input class="input" type="email" placeholder="Anota tu email">
                     </div>
-                </div> <!-- contendor-campos -->                
-            </fieldset>
-            
-            <div class="alinear-derecha flex">
-                <input class="boton w-sm-100" type="submit" value="Enviar">
+                    <div class="input__check">
+                        <input type="checkbox">
+                        <p>Acepto los terminos y condiciones</p>
+                    </div>
+                    <div class="inp--btn">
+                        <input class="inp--boton" type="submit" value="¡Quiero programar YA!">
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </section>
 
     <footer class="footer">
@@ -83,6 +78,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
