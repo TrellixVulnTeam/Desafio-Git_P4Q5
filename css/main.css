@@ -280,6 +280,13 @@ h6 {
   padding: 8px;
   /*operaciones*/ }
 
+@media (max-width: 469px) {
+  .section--nos {
+    display: block;
+    width: 100%; }
+  .progra-img {
+    max-width: 100%; } }
+
 .sidebar--section {
   background-image: url(../../images/codigos.jpg);
   background-repeat: no-repeat;
@@ -360,6 +367,10 @@ h6 {
   height: 10rem;
   /* operaciones */ }
 
+@media (max-width: 469px) {
+  .section__contacto {
+    max-width: 100%; } }
+
 .formulario--contacto {
   margin: 0 auto;
   width: 60%;
@@ -416,3 +427,27 @@ h6 {
   background-color: #12474A;
   border-radius: .2rem;
   color: #fff; }
+
+.title--error {
+  font-family: "Krub";
+  text-transform: uppercase;
+  text-align: center; }
+
+.text--error {
+  text-align: center;
+  font-size: 26px;
+  font-family: "Krub"; }
+
+.div-img {
+  display: flex; }
+
+@media (max-width: 469px) {
+  .error--img {
+    max-width: 100%; } }
+
+.back--index {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Krub";
+  font-size: 20px;
+  font-weight: 700; }
