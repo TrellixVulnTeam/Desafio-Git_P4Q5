@@ -71,3 +71,17 @@ $corn: cornsilk;
         display: block;
     }
 }
+@media(max-width: 1334px){
+    .inicio__img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img{
+        margin-top: 15px;
+        max-width: 100%;
+    }
+    .section--inicio {
+        display: block;
+    }
+}

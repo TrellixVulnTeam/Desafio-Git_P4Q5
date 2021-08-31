@@ -85,3 +85,17 @@ $bg-celeste: #0097a7;
         font-size: 36px;
     }
 }
+@media(max-width: 783px) {
+    .main--cursos{
+        display: block;
+    }
+    .section--article {
+        width: 100%;
+    }
+    .main__cursos{
+        width: 100%;
+    }
+    .cursos__title{
+        font-size: 36px;
+    }
+}

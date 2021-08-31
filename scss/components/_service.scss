@@ -54,3 +54,11 @@ $bg-service: lightblue;
        max-width: 100%;
     }
 }
+@media(max-width: 1057px){
+    .servicio {
+        display: block;
+    }
+    .sombra__div--service {
+       max-width: 100%;
+    }
+}
