@@ -164,6 +164,15 @@
     max-width: 100%;
   }
 }
+@media (max-width: 1057px) {
+  .servicio {
+    display: block;
+  }
+
+  .sombra__div--service {
+    max-width: 100%;
+  }
+}
 .footer {
   background-color: #f5efef;
   border-radius: 5px;
@@ -341,6 +350,22 @@ h6 {
     display: block;
   }
 }
+@media (max-width: 1334px) {
+  .inicio__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+    margin-top: 15px;
+    max-width: 100%;
+  }
+
+  .section--inicio {
+    display: block;
+  }
+}
 .parrafo {
   color: black;
 }
@@ -485,6 +510,23 @@ h6 {
 
 /* Responsive Design */
 @media (max-width: 469px) {
+  .main--cursos {
+    display: block;
+  }
+
+  .section--article {
+    width: 100%;
+  }
+
+  .main__cursos {
+    width: 100%;
+  }
+
+  .cursos__title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 783px) {
   .main--cursos {
     display: block;
   }
